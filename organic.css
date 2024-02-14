@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    /* border and padding will be adjusted */
+    margin:0%;     
+
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    
+    position: fixed;
+}
+.one{
+    background-color: rgb(221, 33, 64);
+}
+.navtxt{
+    color:white !important;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 1%;
+}
+/* end nav */
+/* Home section */
+.bgimg{
+    background-image: url("https://img.freepik.com/free-photo/close-up-assortment-fresh-autumnal-vegetables_23-2148647920.jpg?w=996&t=st=1707802734~exp=1707803334~hmac=d16827799b5da8618e3fff5c5d51a054aacca5c71a60161bc3aae942f3f1c3b1");
+    width:100vw;
+    height:70vh; 
+    background-size:cover; /*if img is repeated*/
+    opacity: 0.8; /* opacity values should be less than 1*/
+}
+/* haeding */
+.heading{
+    color:rgb(221, 33, 64);
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: bold;
+}
+.para{
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+#bts{
+    background-color: rgb(221, 33, 64);
+    color:white;
+}
+#bts:hover{
+    transform: scale(1.2);
+    color: whitesmoke;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:9%;
+}
+/* Home section end*/
+/*About Section*/
+#About{
+    background-color: #fff;
+    width:100vw;
+}
+.card-img-top{
+    aspect-ratio: 3/2;
+}
+.card-title{
+    color:rgb(221, 33, 64);
+    font-weight: bold;
+    font-size:20px;
+}
+/*About Section end*/
+
+#Payment{
+    width:100vw;
+
+}
+.form-label{
+    color:green;
+    font-size:20px;
+    font-weight: bold;
+}
+.fa-cc-mastercard{
+    color: orange;
+}
+.fa-cc-visa{
+    color:#0e7caf
+}
+/*Footer*/
+.footer{
+    background-color:rgb(221, 33, 64) ;
+    width:100vw;
+}
+.fa-brands{
+    font-size: 40px;
+    margin: 1%;
+    color:#fff;
+}
+.fa-brands:hover{
+    color:yellowgreen;
+}
+.foot{
+    color:yellowgreen;
+}
+.foot:hover{
+    color:#fff;
+}
+.fa-solid{
+    position:sticky;
+    color:green;
+    border:2px solid rgb(221, 33, 64) ;
+    background-color:rgb(221, 33, 64) ;
+    font-size:30px;
+    bottom:0%;
+    right:0%;
+}

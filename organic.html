@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organic Website</title>
+  <!-- Fav icon -->
+  <link rel="icon"
+    href="https://png.pngtree.com/png-vector/20220705/ourmid/00000000000000000000000000000000000000000000000000000000000000000000pngtree-100-organic-eco-label-with-leave-png-image_5682683.png">
+  <!-- external css  -->
+  <link rel="stylesheet" href="./organic.css">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b3e653bcb2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light one fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+          src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-100-organic-eco-label-with-leave-png-image_5682683.png"
+          style="aspect-ratio: 1/1;width: 10%;" /></a>
+      <!-- aspect-ratio:1/1 means width/height -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navtxt active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navtxt" href="#About">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link navtxt dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Payment
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#Payment">Online</a></li>
+              <li><a class="dropdown-item" href="#Payment">Offline</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  navtxt " href="#Contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav Bar End-->
+
+  <!-- Home Section-->
+  <section class="bgimg" id="Home">
+    <div class="container sec1">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="heading"> Organic Products</h1>
+          <p class="para">Best & Healthy</p>
+          <button class="btn bts" id="bts">Organic products &nbsp; <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home Section End -->
+
+  <!-- About Section-->
+  <section id="About">
+    <h1 style="color:rgb(221, 33, 64);font-size:40px;font-weight: bold; " class="about m-5 text-center">About</h1>
+    <!-- text-center means text-align:center ; m-5 means margin is given 5-->
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 w-50 ">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                    src="https://img.freepik.com/free-photo/fresh-berry-fruit-salad-wooden-table-generative-ai_188544-8915.jpg?w=1060&t=st=1707805071~exp=1707805671~hmac=f6eda5e813a8fb3a76942d1f0b8c5d1efac54306854ee95941e70b45dba47aec"
+                    class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                    src="https://img.freepik.com/free-photo/freshness-nature-bounty-healthy-eating-vegetarian-food-variation-generated-by-artificial-intelligence_25030-60577.jpg?w=1060&t=st=1707805749~exp=1707806349~hmac=5eb70eab5b05b09230fd188f22625eb46ac6b7b8e6c9fe34f66ccc8416f88608"
+                    class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                    src="https://img.freepik.com/free-photo/red-yellow-green-lentils-brown-bowls-black-stone-table-top-view_176474-2113.jpg?w=996&t=st=1707805984~exp=1707806584~hmac=d059b5c9ed758bf5efddd01830cef47e788c4125cf3b5bf1a3c48a2dae2deb7c"
+                    class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button"   data-bs-target="#carouselExampleControls"   data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <marquee>
+          <h1 style="background-color:rgb(221, 33, 64);font-size:30px;font-weight: bold;color:white; "
+          class="about m-3 mb-3 text-center">&nbsp; Distinct Organic Greenaries ... </h1>
+        </marquee>
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/honey-jar-ai-generated-image_268835-5046.jpg?t=st=1707835454~exp=1707839054~hmac=fee6b21c65b2dddd26585c55fd78223ed8f6f62d638ad3cb143cc9daee3ec517&w=996"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/freshness-organic-ingredients-rustic-wooden-table-generated-by-artificial-intelligence_188544-150215.jpg?t=st=1707885901~exp=1707889501~hmac=bfec21dc5ec4e8db0091db628a3e0415431acd388c5d032403ecfb589a46abf6&w=1060"class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/assorted-dried-fruits-nuts-arranged-kitchen-table-providing-copy-space_157027-3579.jpg?t=st=1707886087~exp=1707889687~hmac=d99fbfbb2c060a44cdacc7fb2dcab66afe5f8462994b6bd351a0ab6603c1a5df&w=1380"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+  <!--Payment Section-->
+  <section id="Payment">
+    <h1 style="color:rgb(221, 33, 64);font-size:40px;font-weight: bold; " class="about m-5 text-center">Payment</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-7 order-sm-2  order-md-1">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">User Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter User Name">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Ordered Date</label>
+            <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">CVV</label>
+            <input type="number" class="form-control" id="formGroupExampleInput"
+            placeholder="Enter the CVV number here">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">PIN</label>
+            <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Enter the PIN number">
+          </div>
+          <button class="btn bts" id="bts">Proceed Payment &nbsp; <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="col-12 col-lg-5 pl-4 mt-3 order-sm-1 order-md-2">
+          <img src="https://s3.weddbook.com/t1/2/5/0/2505843/sale-10-off-everything-layaways-not-included.jpg"
+          alt="offer img " width=70%; />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Payment section end-->
+
+  <!--contact section-->
+  <section id="Contact">
+    <h1 style="color:rgb(221, 33, 64);font-size:40px;font-weight: bold; " class="about m-5 text-center">Contact</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 order-sm-1">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.531570376744!2d80.45379587490922!3d16.295761284417093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a0ab569764763%3A0x4d62e97b93ca6baa!2sNTR%20Bus%20Station!5e0!3m2!1sen!2sin!4v1707889735634!5m2!1sen!2sin"
+            width="600" height="500" style="border:0; padding-left:3%;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-12 col-md-6 order-sm-2 ">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">User Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter User Name">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Email</label>
+            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Enter your Email Id">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="formGroupExampleInput"
+            placeholder="Enter the Phone number here">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Comments</label>
+            <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="share your comments">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact Section End-->
+
+  <!--Footer Section-->
+  <section class="footer mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex flex-row justify-content-center">
+          <img
+            src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-100-organic-eco-label-with-leave-png-image_5682683.png"
+            style=" aspect-ratio:2/2;width:100px;" />
+        </div>
+        <div col="col-12 d-flex flex-row justify-content-center ">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-square-threads"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="col-12 d-flex flex-row justify-content-center">
+          <h3 class="foot">@COPYRIGHT BY FORENTEND TEAM CSR</h3>
+        </div>
+      </div>
+    </div>
+    <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+  </section>
+  <!--Footer Section End-->
+
+  <!--  Bootstrap Bundle (JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
